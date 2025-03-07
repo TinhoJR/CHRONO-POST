@@ -5,12 +5,122 @@
 
 .top-intro{
     display: flex;
+    justify-content: center;
+   
+    padding: 20px 0px;
+}
+
+.intro-navigator{
+   padding-top: 5px;
+}
+
+.comapny-logo{
+    margin-right: 20px;
+   
 }
 
 .comapny-logo img{
     width: 100%;
+    height: 45px;
+}
+
+.links-content{
+    display: inline; 
+    padding: 0px 10px;
+    text-align: center;
+    border: 0px;
+    border-right: 3px solid #5abeeb;
+    font-size: 13px !important;
+    font-weight: 500;
+    
+}
+
+.links-content span{
+    padding: 0px 4px;
+}
+
+.active{
+    color: #5abeeb !important;
+}
+
+.links-content a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.links-content a:hover{
+    text-decoration: underline;
+}
+
+.logIn-btn{
+    display: inline;
+}
+
+.logIn-btn button{
+    background-color: transparent;
+    border: none;
+    width: 70px;
+    height: 35px;
+    font-size: 13px !important;
+    font-weight: 500;
+    
+}
+
+.logIn-btn button:hover{
+   background-color: rgba(220, 217, 217, 0.508);
+}
+
+
+.nav-section{
+    background-color: #e6e7e8;
+    justify-content: center;
+    text-align: center;
+    
+    display: flex;
+}
+
+
+.nav-btn{
+    padding: 10px 18px;
+    border: 0px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 490;
     height: 60px;
 }
+
+.nav-btn:hover{
+    background-color: #009adf;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.nav-form{
+    padding-top: 10px;
+    position: relative;
+       
+}
+
+.nav-form input{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    height: 40px;
+    width: 250px;
+}
+
+.nav-form button{
+    background-color: #0060a2;
+    color:white;
+    width:40px;
+    height: 40px;
+    border: 0px;
+    position: absolute;
+    right: 0;
+
+}
+
 
 /*  */
 
