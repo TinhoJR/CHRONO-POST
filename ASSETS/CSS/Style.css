@@ -12,8 +12,7 @@
 
 .top-intro{
     display: flex;
-    justify-content: center;
-   
+    justify-content: center; 
     padding: 20px 0px;
 }
 
@@ -156,6 +155,7 @@
     background-size: cover;
     position: relative;
     
+    
 }
 
 .hero-list-1{
@@ -287,6 +287,12 @@
     margin:0% 15%;
 }
 
+.processing-section div h3{
+    color: #009adf;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+}
+
 .processing-form{
     background-color:#e6e7e8;
     padding: 20px 5px 20px 5px !important;
@@ -294,11 +300,26 @@
 }
 
 .business-consignee{
-    background-color: white;
-    padding: 10px 30px;
+    background-color: #f4f4f4;
+    padding: 0px 0px;
     margin: 0 !important;
     height: 200px;
+    display: flex;
 
+}
+
+.colored-div{
+    background-color: #b1e0f5;
+    height: 100%;
+    width: 15px;
+    display: none;
+   
+}
+
+.processing-details{
+    padding: 20px 20px;
+    width: 100%;
+    
 }
 
 
@@ -310,16 +331,18 @@
     height: 50px;
     font-size: 15px;
     font-weight: 300;
+    background-color: transparent;
 }
 
 .processing-details input{
     border: none;
     border-bottom: 1px solid rgba(128, 128, 128, 0.741);
     display: block;
-    width: 100%;
+    width: 100% !important;
     height: 50px;
     font-size: 15px;
     font-weight: 300;
+    background-color: transparent;
 }
 
 .processing-list{
@@ -330,7 +353,9 @@
 .processing-list h4{
 
     padding-left: 40px;
+    padding-bottom: 10px;
     font-size: 19px;
+    color: rgba(0, 0, 0, 0.724);
 }
 
 .processing-list-m{
@@ -347,7 +372,8 @@
     font-size: 12px;
     margin: 0;
     padding: 0;
-    font-weight: 300;
+    font-weight: 400;
+    display: none;
 }
 
 .business-customer-check{
@@ -355,7 +381,140 @@
     padding: 10px 0px;
 }
 
+.shipment-info{
+    padding: 30px 70px 10px 50px;
+}
+
+.shipment-info div h5{
+   font-weight: 470;
+   font-size: 23px;
+}
+
+.shipment-info div input{
+    width: 30px;
+    height: 20px;
+   
+    
+}
+
+.shipment-info div span{
+   font-size: 19px;
+  
+}
+
+.offer-btn{
+    float: right;
+    margin: 20px 0px;
+    width: 220px;
+    height: 45px;
+    text-align: center;
+    color: white;
+    background-color: #009adf;
+    border: 0px;
+    font-size: 19px;
+}
+
+.offer-btn:hover{
+    background-color: #5abeeb;
+    transition: ease-in-out 0.4s;
+}
+
+.quality-content{
+    padding: 90px 0px;
+    text-align: center;
+}
+
+.quality-content h1{
+    font-weight:330;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 38px;
+}
+
+.quality-list{
+    text-align: center;
+}
+
+.quality-list p{
+    padding: 15px;
+    font-weight: 320;
+    font-size: 16px;
+}
+
 /* processing-section ENDS */
+
+
+/* history-section STARTS */
+
+.history-section{
+    background-color: #ccebf9;
+    padding: 1% 15%;
+}
+
+.history-content{
+    padding: 70px 0px;
+}
+
+.history-content h3{
+    color: #009adf;
+    font-size: 25px;
+    padding: 30px 0px;
+    font-weight: 400;
+}
+
+.history-content div p{
+    font-weight: 370;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.history-content div p span{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.findUs-info{
+    background-color:#414042;
+    color: whitesmoke;
+    height: 100%;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.findUs-info h5{
+    padding: 10px 0px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.findUs-info p{
+    padding: 15px 0px;
+    font-size: 17px;
+    font-weight: 340;
+}
+
+.findUs-info form{
+   padding-top: 80px;
+}
+
+.findUs-info form input{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border: none;
+}
+
+.findUs-info button{
+    background-color:#0060a2;
+    border: 0px;
+    color: whitesmoke;
+    width: 190px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+/* history-section ENDS */
 
 
 /* HOME PAGE ENDS */
