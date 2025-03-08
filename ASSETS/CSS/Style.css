@@ -514,8 +514,135 @@
     margin-top: 15px;
 }
 
+.findUs-info button:hover{
+    background-color: #009adf;
+    transition: ease-in-out 0.5s;
+}
+
 /* history-section ENDS */
 
+
+/* enquiry-section STARTS */
+
+.enquiry-section{
+    margin: 2% 15%;
+}
+
+.enquiry-content{
+    background-color: #e6e7e8;
+    padding: 30px 20px;
+    height: 45vh;
+    margin-right: 0;
+}
+
+.enquiry-content h4{
+    color: #414042;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.enquiry-content p{
+    font-size: 15px;
+    font-weight: 340;
+   
+    height: 90px;
+   
+}
+
+.enquiry-content button{
+    border: none;
+    background-color: #414042;
+    width: 220px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+   
+    
+}
+
+.suggestion-list{
+    background-color:#e6e7e8;
+    padding: 20px 30px;
+}
+
+.suggestion-list ul{
+    padding: 0px;
+    list-style-type: none;
+}
+
+.suggestion-list ul li{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+.suggestion-list ul li:hover{
+    color: #009adf;
+    text-decoration: underline;
+}
+
+/* enquiry-section ENDS */
+
+
+/* parcel-tracking STARTS */
+
+.parcel-tracking{
+    background-color: #009adf;
+    padding: 2% 15%;
+    color: white;
+}
+
+.parcel-detail h6{
+
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.parcel-detail p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    
+    height: 50px;
+}
+
+.parcel-form{
+    float: right;
+    position: relative;
+    padding-top: 30px;
+}
+
+.parcel-form-1{
+  float: left;
+}
+
+.parcel-form-1 select{
+    width: 100%;
+    height: 45px;
+    padding: 10px 15px;
+}
+
+.parcel-form input{
+    width: 300px;
+    height: 45px;
+    padding: 10px 15px;
+}
+
+.parcel-form button{
+    position: absolute;
+    right: 0px;
+    background-color: #414042;
+    width: 45px;
+    height: 45px;
+    color: white;
+
+}
+
+/* parcel-tracking ENDS */
 
 /* HOME PAGE ENDS */
 
@@ -553,5 +680,21 @@
     .processing-list-m{
         margin: 0;
         margin-top: 15px;
+    }
+
+    .enquiry-section{
+        margin: 40px 15px;
+    }
+
+    .enquiry-content button{
+        margin-top: 5px;
+    }
+
+    .history-section{
+        padding: 30px 20px;
+    }
+
+    .parcel-tracking{
+        display: none;
     }
 }
