@@ -7,6 +7,7 @@
     position: fixed;
     width: 100%;
     background-color: white;
+  
 
 }
 
@@ -145,6 +146,19 @@
 
 .hero{
     padding: 170px 0px 20px 0px;
+}
+
+.navigator{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navigator a{
+
+    color: #009adf;
+    text-decoration: none;
+    padding-left: 80px;
+    
 }
 
 .hero-list{
@@ -591,7 +605,7 @@
 
 .parcel-tracking{
     background-color: #009adf;
-    padding: 2% 15%;
+    padding: 3% 15%;
     color: white;
 }
 
@@ -643,6 +657,97 @@
 }
 
 /* parcel-tracking ENDS */
+
+.added-link{
+    display: none;
+}
+
+/* Footer STARTS */
+
+footer{
+    padding: 2% 15%;
+}
+
+.footer-section{
+    border: 0px;
+    border-bottom: 1px solid black;
+    padding: 30px 0px;
+}
+
+.footer-content ul{
+    padding:0px;
+    list-style-type: none;
+}
+
+.footer-content ul li{
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 15px;
+    color: #272728c8;
+    letter-spacing: 1px;
+    
+}
+
+.footer-content ul li:hover{
+    color: #009adf;
+    text-decoration: underline;
+}
+
+.footer-content h5{
+    color:#414042;
+    font-weight: 470;
+    font-size: 22px;
+}
+
+.socials-info i{
+
+    padding-left: 16px;
+    font-size: 22px;
+    padding-top: 15px;
+    color: #009adf;
+}
+
+.bottom-section{
+    padding: 55px 0px;
+}
+
+.bottom-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.bottom-info div:first-child img{
+    height: 60px;
+    width: 130px;
+}
+
+.bottom-info div:last-child img{
+    height: 40px;
+    width: 170px;
+}
+
+.bottom-section button{
+    background-color: transparent;
+    border: 0px;
+    color: gray;
+    padding: 6px 5px;
+    margin: 0 !important;
+    font-size: 14px;
+    font-weight: 350;
+
+}
+
+.bottom-section button:hover{
+
+    background-color: #009adf;
+    color: white;
+    transition: ease 0.6s;
+
+}
+
+
+/* Footer ENDS */
 
 /* HOME PAGE ENDS */
 
@@ -696,5 +801,41 @@
 
     .parcel-tracking{
         display: none;
+    }
+
+    footer{
+        padding: 20px 20px;
+    }
+
+    .footer-content ul li{
+        display: none;
+    }
+
+    .footer-content h5{
+        color: #009adf;
+        font-weight: 500;
+    }
+
+    .footer-content h5:hover{
+        text-decoration: underline;
+    }
+
+    .removed-link{
+        display: none;
+    }
+
+    .added-link{
+        display: block;
+    }
+
+    .bottom-section button{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-section{
+        border-top: 1px solid black;
     }
 }
